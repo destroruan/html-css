@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+a {
+    text-decoration: none;}
+body {font-family: 
+    Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+    color: white;}
+a > .menu {
+    display: inline-block;
+    width: max-content;
+    font-size: 1em;
+    padding: 0.2em;
+    margin: 0.2px;}
+#barra-top {
+    color: white;}
+#barra-top > p {
+    display: none;}
+.menu:hover {
+    color: darkred;}
