@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/*
+    CORES DO SITE:
+    BACKGROUND HEARDER:     #27E688 
+    BACKGROUND MAIN:        #AEEBAE
+    VERDE CAGANEIRA:        #CDD9A0
+    VERDE ÁGUA:             #C1D96C
+    VERDE ABACATE:          #A2BF39
+*/
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #AEEBAE;
+}
+header {
+    background: linear-gradient(#27E688, #157e49);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.363);
+}
+header > h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+header > p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav > a {
+    padding-left: 10px;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+article > h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #157e49;
+}
+article > h2 {
+    font-size: 1.3em;
+    color: #157e49;
+    text-transform: uppercase;
+    background: radial-gradient(#C1D96C, transparent);
+}
+article > p {
+    font-size: 1em;
+    text-align: justify;
+}
+section {
+    margin: auto;
+}
+section#historia {
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.363);
+    background-color: white;    
+}
+div {
+    margin: auto;
+}
+div#extra {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.363);
+    background-color: #157e49;     
+}
+section#extra {
+    width: 800px;
+    padding: 10px;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.363); 
+    background-color: white;    
+}
+section#extra > p {
+    text-align: justify;
+}
+ul {
+    display: inline-block;
+}
+div#mais {
+    border-radius: 10px;
+    background-color: #e1fff0;
+}
+#mais > h2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    font-size: 1.3em;
+    color: white;
+    background-color: #157e49;
+}
+#mais > p {
+    padding: 0px 10px 10px 10px;
+}
+footer {
+    font-size: 1em;
+    font-weight: bold;
+    color: #e0f8e0;
+    background-color: #093b22;
+    text-align: center;
+    margin: auto;
+}
+p#link-rodape > a {
+    text-decoration: none;
+    color: white;
+}
+p#historia > a {
+    text-decoration: none;
+    color: #093b22;
+    font-weight: bold;
+}
